@@ -225,4 +225,21 @@ figure {
   .movie-overview {
     display: inline-block;
   }
+
+  .about {
+    padding: 2em;
+    float: right;
+    width: 50%
+  }
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+    clear: both;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 2em 0;
+    padding-left: 8em;
+
+  }
 }
