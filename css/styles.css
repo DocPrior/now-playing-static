@@ -196,7 +196,7 @@ figure {
   margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px){
   .site-nav {
     width: 10%;
     height: 100%;
@@ -241,5 +241,41 @@ figure {
     padding: 2em 0;
     padding-left: 8em;
 
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .site-nav {
+    width: 10%;
+    height: 100%;
+    padding: 5em .5em 0 0.5em;
+    z-index: 99;
+  }
+
+  .site-nav-item {
+    float: none;
+    width: 98%;
+    padding: 0;
+  }
+
+  .site-logo {
+    top: 1.0rem;
+    left: 9px;
+    width: 55px;
+    height: 55px;
+  }
+
+
+  .movie:first-of-type {
+      float: right;
+      width: 90%;
+  }
+
+  .movie-backdrop{
+    display: hidden
+  }
+
+  .movie-poster{
+    display: inline-block;
   }
 }
