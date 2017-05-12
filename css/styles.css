@@ -221,4 +221,8 @@ figure {
     max-width: 90%;
     float: right;
   }
+
+  .movie-overview {
+    display: inline-block;
+  }
 }
