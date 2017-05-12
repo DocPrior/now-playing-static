@@ -216,4 +216,9 @@ figure {
     width: 55px;
     height: 55px;
   }
+
+  .movie {
+    max-width: 90%;
+    float: right;
+  }
 }
