@@ -245,6 +245,18 @@ figure {
 }
 
 @media screen and (min-width: 992px) {
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+    clear: both;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 2em 0;
+    padding-left: 8em;
+
+  }
+
   .site-nav {
     width: 10%;
     height: 100%;
@@ -260,42 +272,29 @@ figure {
 
   .site-logo {
     top: 1.0rem;
-    left: 20px;
+    left: 9px;
     width: 55px;
     height: 55px;
   }
-
-
   .movie-backdrop {
-    display: none;
-  }
+      display: none;
+    }
 
   .movie-poster {
-    display: inline-block;
-    width: 33.3333%;
+    width: 33.33333%;
     float: left;
+    display: block;
   }
 
-  .movie:first-child .movie.poster {
+  .movie:first-child .movie-poster {
     display: none;
   }
 
-  .movie:first-child .movie.backdrop {
+  .movie:first-child .movie-backdrop {
+    display: inline-block
+  }
+
+  .movie:first-child .movie-overview {
     display: block;
-    width: 90%;
-    float: left;
   }
-
-  .footer-nav {
-    float: left;
-    width: 50%;
-    clear: both;
-    color: #ffffff;
-    background-color: #333333;
-    padding: 2em 0;
-    padding-left: 8em;
-    padding-bottom: 3.2em;
-  }
-
-
 }
