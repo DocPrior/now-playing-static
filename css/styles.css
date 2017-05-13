@@ -285,7 +285,7 @@ figure {
     clear: both;
     color: #ffffff;
     background-color: #333333;
-    padding: 2em 0;
+    padding: 2.62em 0em;
     padding-left: 8em;
 
   }
@@ -308,6 +308,12 @@ figure {
     left: 6px;
     width: 55px;
     height: 55px;
+  }
+
+  .about {
+      padding: 2em;
+      float: right;
+      width: 50%;
   }
 
 
