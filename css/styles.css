@@ -288,7 +288,7 @@ figure {
   }
 
   .site-nav {
-    width: 10%;
+    width: 7%;
     height: 100%;
     padding: 5em .5em 0 0.5em;
     z-index: 99;
@@ -306,6 +306,6 @@ figure {
     width: 55px;
     height: 55px;
   }
- 
+
 
 }
