@@ -318,10 +318,10 @@ figure {
 
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1279px) (max-width: 1520px) {
 
   .movie {
-    max-width: 95%;
+    max-width: 47%;
     float: right;
   }
 
@@ -345,6 +345,54 @@ figure {
   .site-logo {
     top: 1.0rem;
     left: 9px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+    clear: both;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 2.62em 0em;
+    padding-left: 8em;
+  }
+
+  .about {
+      padding: 2em;
+      float: right;
+      width: 50%;
+  }
+
+}
+
+@media screen and (min-width: 1521px) {
+  .movie {
+    max-width: 47%;
+    float: right;
+  }
+
+  .movie-overview {
+    display: inline-block;
+  }
+
+  .site-nav {
+    width: 6%;
+    height: 100%;
+    padding: 5em .5em 0 0.5em;
+    z-index: 99;
+  }
+
+  .site-nav-item {
+    float: none;
+    width: 98%;
+    padding: 0;
+  }
+
+  .site-logo {
+    top: 1.0rem;
+    left: 20px;
     width: 55px;
     height: 55px;
   }
