@@ -265,66 +265,26 @@ figure {
     height: 55px;
   }
 
-  .movie-backdrop{
-    display: none
-  }
 
-  /*img[src="http://image.tmdb.org/t/p/w1280/tFI8VLMgSTTU38i8TIsklfqS9Nl.jpg"] {
-    display: block;*/
-  
-  }
-
-  .movie-image {
-    width: 100%;
-    float: right;
-  }
-
-  .movie:first-child .movie-backdrop {
-    display: inline-block;
-  }
-
-  /*img[src="http://image.tmdb.org/t/p/w780/xfWac8MTYDxujaxgPVcRD9yZaul.jpg"] {
+  .movie-backdrop {
     display: none;
-  }*/
+  }
 
   .movie-poster {
     display: inline-block;
-  }
-
-  .movie:first-child .movie-overview {
-     display: block;
-   }
-  article:nth-child(n+2) {
+    width: 33.3333%;
     float: left;
-    width: 33.3333333%;
   }
 
-  .movie {
-    position: relative;
-    left: 6em;
+  .movie:first-child .movie.poster {
+    display: none;
   }
 
-  .about {
-    padding: 2em;
-    float: right;
-    width: 50%
+  .movie:first-child .movie.backdrop {
+    display: block;
+    width: 90%;
+    float: left;
   }
-
-  article:nth-child(0n +1) > div {
-    display: inline-block;
-    padding: 0;
-    position: relative;
-    bottom: 3em;
-    left: 1em;
-  }
-
-  article:nth-child(0n+1) div:nth-child(0n+3) {
-    display: inline-block;
-  }
-
-  .movie:first-child .movie-overview {
-     display: block;
-   }
 
   .footer-nav {
     float: left;
