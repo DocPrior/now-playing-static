@@ -165,7 +165,7 @@ figure {
 /* FOOTER styles */
 .site-footer {
   text-align: center;
-}
+ }
 
 .footer-nav {
   padding: 1em;
@@ -265,17 +265,30 @@ figure {
     height: 55px;
   }
 
-
-  .movie:first-of-type {
-      float: right;
-      width: 90%;
-  }
-
   .movie-backdrop{
-    display: hidden
+    display: none
   }
 
-  .movie-poster{
+  img[src="http://image.tmdb.org/t/p/w1280/tFI8VLMgSTTU38i8TIsklfqS9Nl.jpg"] {
+    display: block;
+    max-width: 100%;
+    float: left;
+    clear: both;
+
+  }
+
+  .movie-image {
+    width: 33.3%;
+    float: right;
+  }
+
+  img[src="http://image.tmdb.org/t/p/w780/xfWac8MTYDxujaxgPVcRD9yZaul.jpg"] {
+    display: none;
+  }
+
+  .movie-poster {
     display: inline-block;
   }
+
+
 }
