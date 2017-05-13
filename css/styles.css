@@ -260,7 +260,7 @@ figure {
 
   .site-logo {
     top: 1.0rem;
-    left: 9px;
+    left: 20px;
     width: 55px;
     height: 55px;
   }
@@ -278,7 +278,7 @@ figure {
   }
 
   .movie-image {
-    width: 33.3%;
+    width: 100%;
     float: right;
   }
 
@@ -288,6 +288,33 @@ figure {
 
   .movie-poster {
     display: inline-block;
+  }
+
+  article:nth-child(n+2) {
+    float: left;
+    width: 33.3333333%;
+  }
+
+  .movie {
+    position: relative;
+    left: 6em;
+  }
+
+  .about {
+    padding: 2em;
+    float: right;
+    width: 50%
+  }
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+    clear: both;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 2em 0;
+    padding-left: 8em;
+
   }
 
 
