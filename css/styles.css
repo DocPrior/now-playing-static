@@ -246,6 +246,36 @@ figure {
 
 @media screen and (min-width: 992px) {
 
+  .movie:first-child {
+    width: 100%;uiiiiiiiiiii  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: inline-block;
+  }
+
+  .movie:first-child .movie-overview {
+    display: block;
+  }
+
+
+  .movie-backdrop {
+    display: none;
+  }
+  .movie-poster {
+    display: block;
+  }
+
+  .movie{
+    display: block;
+    float: left;
+    width: 33.333%;
+
+  }
+
   .footer-nav {
     float: left;
     width: 50%;
@@ -276,25 +306,6 @@ figure {
     width: 55px;
     height: 55px;
   }
-  .movie-backdrop {
-      display: none;
-    }
+ 
 
-  .movie-poster {
-    width: 33.33333%;
-    float: left;
-    display: block;
-  }
-
-  .movie:first-child .movie-poster {
-    display: none;
-  }
-
-  .movie:first-child .movie-backdrop {
-    display: inline-block
-  }
-
-  .movie:first-child .movie-overview {
-    display: block;
-  }
 }
