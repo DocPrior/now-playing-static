@@ -269,12 +269,9 @@ figure {
     display: none
   }
 
-  img[src="http://image.tmdb.org/t/p/w1280/tFI8VLMgSTTU38i8TIsklfqS9Nl.jpg"] {
-    display: block;
-    max-width: 100%;
-    float: left;
-    clear: both;
-
+  /*img[src="http://image.tmdb.org/t/p/w1280/tFI8VLMgSTTU38i8TIsklfqS9Nl.jpg"] {
+    display: block;*/
+  
   }
 
   .movie-image {
@@ -282,14 +279,21 @@ figure {
     float: right;
   }
 
-  img[src="http://image.tmdb.org/t/p/w780/xfWac8MTYDxujaxgPVcRD9yZaul.jpg"] {
-    display: none;
+  .movie:first-child .movie-backdrop {
+    display: inline-block;
   }
+
+  /*img[src="http://image.tmdb.org/t/p/w780/xfWac8MTYDxujaxgPVcRD9yZaul.jpg"] {
+    display: none;
+  }*/
 
   .movie-poster {
     display: inline-block;
   }
 
+  .movie:first-child .movie-overview {
+     display: block;
+   }
   article:nth-child(n+2) {
     float: left;
     width: 33.3333333%;
@@ -306,6 +310,22 @@ figure {
     width: 50%
   }
 
+  article:nth-child(0n +1) > div {
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    bottom: 3em;
+    left: 1em;
+  }
+
+  article:nth-child(0n+1) div:nth-child(0n+3) {
+    display: inline-block;
+  }
+
+  .movie:first-child .movie-overview {
+     display: block;
+   }
+
   .footer-nav {
     float: left;
     width: 50%;
@@ -314,7 +334,7 @@ figure {
     background-color: #333333;
     padding: 2em 0;
     padding-left: 8em;
-
+    padding-bottom: 3.2em;
   }
 
 
